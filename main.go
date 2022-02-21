@@ -15,7 +15,7 @@ import (
 // nolint:funlen
 func main() {
 	dbFile := MustGetEnv("DB_FILE")
-	telegramBotToken := MustGetEnv("TELEGRAM_BOT_TOKEN")
+	telegramBotToken := MustGetEnv("1811863530:AAFFYY_EqvKapAYf93HiO2j3qD-pGKNHgLg")
 	allowedChats := parseAllowedChats(MustGetEnv("ALLOWED_CHATS"))
 
 	database, err := db.SetupDB(dbFile, allowedChats)
